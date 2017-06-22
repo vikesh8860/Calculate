@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">Calculate</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_bmi">BMI Calculator</string>
+    <string name="title_activity_interest">Interest Calculator</string>
+    <string name="title_activity_converter">Unit Converter</string>
+    <string name="spinner_1">From</string>
+    <string name="spinner_2">To</string>
+    <string-array name="conversion_type">
+        <item>Area</item>
+        <item>Digital Storage</item>
+        <item>Energy</item>
+        <item>Frequency</item>
+        <item>Mass</item>
+        <item>Length</item>
+        <item>Plane Angle</item>
+        <item>Pressure</item>
+        <item>Speed</item>
+        <item>Temperature</item>
+        <item>Time</item>
+        <item>Volume</item>
+    </string-array>
+
+    <string-array name="area">
+        <item>Square kilometer</item>
+        <item>Square metre</item>
+        <item>Square yard</item>
+        <item>Square foot</item>
+        <item>Square inch</item>
+        <item>Square mile</item>
+        <item>Hectare</item>
+        <item>Acre</item>
+    </string-array>
+
+    <string-array name="digital_storage">
+        <item>Bit</item>
+        <item>Byte</item>
+        <item>Kilo Byte</item>
+        <item>Mega Byte</item>
+        <item>Giga Byte</item>
+        <item>Tera Byte</item>
+        <item>Peta Byte</item>
+    </string-array>
+
+
+    <string-array name="energy">
+        <item>Joule</item>
+        <item>Kilojoule</item>
+        <item>Kilo calorie</item>
+        <item>Kilowatt hour</item>
+        <item>Foot-pound</item>
+    </string-array>
+
+    <string-array name="frequency">
+        <item>Hertz</item>
+        <item>Kilohertz</item>
+        <item>Megahertz</item>
+        <item>Gigahertz</item>
+    </string-array>
+
+    <string-array name="length">
+        <item>Kilometre</item>
+        <item>Metre</item>
+        <item>Centimetre</item>
+        <item>Millimeter</item>
+        <item>Micrometer</item>
+        <item>Mile</item>
+        <item>Yard</item>
+        <item>Foot</item>
+        <item>Inch</item>
+        <item>Nautical Mile</item>
+    </string-array>
+
+    <string-array name="mass">
+        <item>Tonne</item>
+        <item>Kilogram</item>
+        <item>Gram</item>
+        <item>Milligram</item>
+        <item>Microgram</item>
+        <item>Stone</item>
+        <item>Pound</item>
+        <item>Ounce</item>
+    </string-array>
+
+    <string-array name="phase_angle">
+        <item>Degree</item>
+        <item>Gradian</item>
+        <item>Radian</item>
+        <item>Milliradian</item>
+    </string-array>
+
+    <string-array name="pressure">
+        <item>Atmosphere</item>
+        <item>Bar</item>
+        <item>Pascal</item>
+        <item>Torr</item>
+    </string-array>
+
+    <string-array name="speed">
+        <item>Miles per hour</item>
+        <item>Foot per second</item>
+        <item>Metre per second</item>
+        <item>Kilometre per hour</item>
+        <item>Knot</item>
+    </string-array>
+
+    <string-array name="temperature">
+        <item>Celsius</item>
+        <item>Kelvin</item>
+        <item>Fahrenheit</item>
+    </string-array>
+
+    <string-array name="time">
+        <item>Millisecond</item>
+        <item>Second</item>
+        <item>Minute</item>
+        <item>Hour</item>
+        <item>Day</item>
+        <item>Week</item>
+        <item>Month</item>
+        <item>Year</item>
+        <item>Decade</item>
+        <item>Century</item>
+    </string-array>
+
+    <string-array name="volume">
+        <item>Litre</item>
+        <item>Milliletre</item>
+        <item>Imperial gallon</item>
+        <item>Imperial quart</item>
+        <item>Imperial cup</item>
+        <item>Cubic foot</item>
+        <item>Cubic Inch</item>
+        <item>Cubic metre</item>
+    </string-array>
+    <string-array name="cycle">
+        <item>Simple Interest</item>
+        <item>Compounded Monthly</item>
+        <item>Compounded Quarterly</item>
+        <item>Compounded Half Yearly</item>
+        <item>Compounded Yearly</item>
+    </string-array>
+    <string-array name="duration">
+        <item>Days</item>
+        <item>Months</item>
+        <item>Years</item>
+    </string-array>
+    <string name="Rs">\u20B9</string>
+    <string name="edit_text_from">Enter value</string>
+    <string name="digit_allowed">0123456789-.</string>
+    <string name="title_activity_graph_">Graph</string>
+    <string name="title_activity_graph_activity">Graph</string>
+</resources>

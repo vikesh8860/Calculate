@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_bmi"
+        android:icon="@drawable/bmi"
+        android:title="@string/title_activity_bmi" />
+
+    <item
+        android:id="@+id/navigation_unit"
+        android:icon="@drawable/unit"
+        android:title="@string/title_activity_converter" />
+
+    <item
+        android:id="@+id/navigation_interest"
+        android:icon="@drawable/interest"
+        android:title="@string/title_activity_interest" />
+
+</menu>
