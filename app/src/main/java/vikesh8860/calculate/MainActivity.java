@@ -10,7 +10,6 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
@@ -457,7 +456,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (loan_edit_interest.getText().toString().equals("") == false && loan_edit_duration.getText().toString().equals("") == false && loan_edit_amount.getText().toString().equals("") == false) {
-                    Log.v("MyActivity","bfdbf");
                     Bundle bundle = new Bundle();
                     bundle.putDoubleArray("Loan_amount", loan_points_amount);
                     bundle.putDoubleArray("Loan_interest", loan_points_interest);
@@ -478,9 +476,8 @@ public class MainActivity extends AppCompatActivity {
         loan_interest = loan_edit_interest.getText().toString();
         loan_duration = loan_edit_duration.getText().toString();
 
-        double d1  =Double.parseDouble(loan_amount),d2 = Double.parseDouble(loan_interest),d3 = Double.parseDouble(loan_duration);
-
-        if(loan_amount.equals("") == false && loan_interest.equals("")==false && loan_duration.equals("")==false){
+        if(!loan_amount.equals("")  && !loan_interest.equals("") && loan_duration.equals("")){
+            double d1  =Double.parseDouble(loan_amount),d2 = Double.parseDouble(loan_interest),d3 = Double.parseDouble(loan_duration);
             if(spinner_cycle_pos ==0){          //Simple interest
                 d1  = d1 * d2 ;
                 if(spinner_duration_pos==0){
